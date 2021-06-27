@@ -1,0 +1,59 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    
+.carousel-container
+    display: flex
+    width: 1000px
+    height: 600px
+    margin: auto
+    position: relative
+    overflow: hidden
+
+.carousel-slide
+    display: flex
+    margin: auto
+    width: 100%
+    height: 600px
+
+    img
+        width: 1000px
+        height: auto
+    
+button
+    z-index: 1
+    height: 100%
+    width: 100px
+    border: 0px
+    top: 0
+    background-color: hsla(0,0%, 0%, 0)
+    opacity: .7
+    transition: .15s
+
+    &:hover
+        opacity: 1
+        cursor: pointer
+
+#button-previous
+    position: absolute
+    left: 0px
+
+#button-next
+    position: absolute
+    right: 0px
+
+div.slider-dots 
+    display: flex
+    margin: auto
+    position: absolute
+    bottom: 40px
+    right: 420px
+
+    button
+        width: 16px
+        height: 16px
+        background-color: white
+        opacity: .7
+        border-radius: 50%
+        margin-right: 16px
