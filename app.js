@@ -82,4 +82,4 @@ setInterval(function () {
   dotHighlight(counter);
   carouselSlide.style.transition = 'transform 0.4s ease-in-out';
   carouselSlide.style.transform = `translateX(${-size * counter}px)`;
-}, 5000);
+}, 10000);
